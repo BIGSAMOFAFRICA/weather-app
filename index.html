@@ -81,9 +81,10 @@ async function checkweather(city) {
     } else {
         // City not found, display an error message
         document.querySelector(".weather").style.display = "none";
-        alert("City not found. Please enter a valid city name.");
+        alert("Alaye , City not found. Please enter a valid city name.");
     }
 }
+
 
 searchBtn.addEventListener("click", () => {
     checkweather(searchBox.value);
